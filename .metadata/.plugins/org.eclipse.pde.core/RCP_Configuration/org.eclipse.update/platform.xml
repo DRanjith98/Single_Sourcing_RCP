@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config date="1597068876330" transient="false" version="3.0">
+<config date="1597147301383" transient="false" version="3.0">
 <site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
 <feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_2.3.200.v20200604-0540/" version="2.3.200.v20200604-0540">
 </feature>
@@ -10,6 +10,8 @@
 <feature id="org.eclipse.help.source" url="features/org.eclipse.help.source_2.3.200.v20200604-0540/" version="2.3.200.v20200604-0540">
 </feature>
 <feature id="org.eclipse.swtbot" plugin-identifier="org.eclipse.swtbot.eclipse.ui" url="features/org.eclipse.swtbot_3.0.0.202006031738/" version="3.0.0.202006031738">
+</feature>
+<feature id="org.eclipse.xtext.xbase.lib" url="features/org.eclipse.xtext.xbase.lib_2.22.0.v20200602-0715/" version="2.22.0.v20200602-0715">
 </feature>
 <feature id="org.eclipse.nebula.widgets.nattable.extension.poi.feature" url="features/org.eclipse.nebula.widgets.nattable.extension.poi.feature_1.5.1.201909181823/" version="1.5.1.201909181823">
 </feature>
@@ -36,6 +38,8 @@
 <feature id="org.eclipse.oomph.p2" url="features/org.eclipse.oomph.p2_1.16.0.v20200405-0717/" version="1.16.0.v20200405-0717">
 </feature>
 <feature id="org.eclipse.epp.package.rcp.feature" plugin-identifier="org.eclipse.epp.package.rcp" url="features/org.eclipse.epp.package.rcp.feature_4.16.0.20200615-1200/" version="4.16.0.20200615-1200">
+</feature>
+<feature id="org.eclipse.xtext.xbase" url="features/org.eclipse.xtext.xbase_2.22.0.v20200602-1533/" version="2.22.0.v20200602-1533">
 </feature>
 <feature id="org.eclipse.swtbot.eclipse" plugin-identifier="org.eclipse.swtbot.eclipse.ui" url="features/org.eclipse.swtbot.eclipse_3.0.0.202006031738/" version="3.0.0.202006031738">
 </feature>
@@ -73,15 +77,21 @@
 </feature>
 <feature id="org.eclipse.equinox.compendium.sdk" url="features/org.eclipse.equinox.compendium.sdk_3.20.200.v20200511-1702/" version="3.20.200.v20200511-1702">
 </feature>
+<feature id="org.eclipse.fx.ide.css.feature" plugin-identifier="org.eclipse.fx.ide.ui" url="features/org.eclipse.fx.ide.css.feature_1.2.0.201501301049/" version="1.2.0.201501301049">
+</feature>
 <feature id="org.eclipse.swtbot.ide" plugin-identifier="org.eclipse.swtbot.eclipse.ui" url="features/org.eclipse.swtbot.ide_3.0.0.202006031738/" version="3.0.0.202006031738">
 </feature>
 <feature id="org.eclipse.platform.source" url="features/org.eclipse.platform.source_4.16.0.v20200604-0951/" version="4.16.0.v20200604-0951">
+</feature>
+<feature id="org.eclipse.xtend.sdk" plugin-identifier="org.eclipse.xtend.ide" url="features/org.eclipse.xtend.sdk_2.22.0.v20200602-1533/" version="2.22.0.v20200602-1533">
 </feature>
 <feature id="org.eclipse.ecf.core.ssl.feature.source" url="features/org.eclipse.ecf.core.ssl.feature.source_1.1.400.v20200317-1602/" version="1.1.400.v20200317-1602">
 </feature>
 <feature id="org.eclipse.passage.lic.users.feature" plugin-identifier="org.eclipse.passage.lic.users" url="features/org.eclipse.passage.lic.users.feature_0.6.200.v20200601-1631/" version="0.6.200.v20200601-1631">
 </feature>
 <feature id="org.eclipse.wb.core.xml.feature" plugin-identifier="org.eclipse.wb.core.xml" url="features/org.eclipse.wb.core.xml.feature_1.9.3.202001230951/" version="1.9.3.202001230951">
+</feature>
+<feature id="org.eclipse.fx.ide.l10n.feature" url="features/org.eclipse.fx.ide.l10n.feature_1.2.0.201501301049/" version="1.2.0.201501301049">
 </feature>
 <feature id="org.eclipse.passage.lic.emf.feature" plugin-identifier="org.eclipse.passage.lic.emf" url="features/org.eclipse.passage.lic.emf.feature_0.6.100.v20200531-1743/" version="0.6.100.v20200531-1743">
 </feature>
@@ -101,7 +111,11 @@
 </feature>
 <feature id="org.eclipse.wb.doc.user.feature" plugin-identifier="org.eclipse.wb.doc.user" url="features/org.eclipse.wb.doc.user.feature_1.9.3.202001230951/" version="1.9.3.202001230951">
 </feature>
+<feature id="org.eclipse.xtext.examples" url="features/org.eclipse.xtext.examples_2.22.0.v20200602-1533/" version="2.22.0.v20200602-1533">
+</feature>
 <feature id="org.eclipse.ecf.filetransfer.feature.source" url="features/org.eclipse.ecf.filetransfer.feature.source_3.14.800.v20200317-1602/" version="3.14.800.v20200317-1602">
+</feature>
+<feature id="org.eclipse.fx.runtime.min.feature" url="features/org.eclipse.fx.runtime.min.feature_1.2.0.201501301028/" version="1.2.0.201501301028">
 </feature>
 <feature id="org.eclipse.jgit" url="features/org.eclipse.jgit_5.8.0.202006091008-r/" version="5.8.0.202006091008-r">
 </feature>
@@ -110,6 +124,8 @@
 <feature id="org.eclipse.passage.lic.compile.feature" plugin-identifier="org.eclipse.passage.lic.compile.branding" url="features/org.eclipse.passage.lic.compile.feature_0.9.0.v20200602-1615/" version="0.9.0.v20200602-1615">
 </feature>
 <feature id="org.eclipse.platform" url="features/org.eclipse.platform_4.16.0.v20200604-0951/" version="4.16.0.v20200604-0951">
+</feature>
+<feature id="org.eclipse.fx.ide.fxml.feature" url="features/org.eclipse.fx.ide.fxml.feature_1.2.0.201501301049/" version="1.2.0.201501301049">
 </feature>
 <feature id="org.eclipse.equinox.core.sdk" url="features/org.eclipse.equinox.core.sdk_3.19.300.v20200525-1407/" version="3.19.300.v20200525-1407">
 </feature>
@@ -129,17 +145,27 @@
 </feature>
 <feature id="org.eclipse.egit.gitflow.feature" plugin-identifier="org.eclipse.egit.gitflow" url="features/org.eclipse.egit.gitflow.feature_5.8.0.202006091008-r/" version="5.8.0.202006091008-r">
 </feature>
+<feature id="org.eclipse.emf.mwe2.language.sdk" url="features/org.eclipse.emf.mwe2.language.sdk_2.11.3.v20200520-0756/" version="2.11.3.v20200520-0756">
+</feature>
 <feature id="org.eclipse.m2e.logback.feature" plugin-identifier="org.eclipse.m2e.logback.configuration" url="features/org.eclipse.m2e.logback.feature_1.16.0.20200318-1040/" version="1.16.0.20200318-1040">
+</feature>
+<feature id="org.eclipse.xtext.xtext.ui.graph" url="features/org.eclipse.xtext.xtext.ui.graph_2.22.0.v20200602-1533/" version="2.22.0.v20200602-1533">
 </feature>
 <feature id="org.eclipse.equinox.p2.core.feature" url="features/org.eclipse.equinox.p2.core.feature_1.6.600.v20200511-1530/" version="1.6.600.v20200511-1530">
 </feature>
 <feature id="org.eclipse.wst.xml_ui.feature" plugin-identifier="org.eclipse.wst.xml.ui" url="features/org.eclipse.wst.xml_ui.feature_3.18.0.v202005192253/" version="3.18.0.v202005192253">
+</feature>
+<feature id="org.eclipse.emf.mwe2.runtime.sdk" url="features/org.eclipse.emf.mwe2.runtime.sdk_2.11.3.v20200520-0756/" version="2.11.3.v20200520-0756">
 </feature>
 <feature id="org.eclipse.rcp.source" url="features/org.eclipse.rcp.source_4.16.0.v20200604-0951/" version="4.16.0.v20200604-0951">
 </feature>
 <feature id="org.eclipse.wb.layout.group.feature" plugin-identifier="org.eclipse.wb.layout.group" url="features/org.eclipse.wb.layout.group.feature_1.9.3.202001230951/" version="1.9.3.202001230951">
 </feature>
 <feature id="org.eclipse.ecf.filetransfer.ssl.feature" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.300.v20200317-1602/" version="1.1.300.v20200317-1602">
+</feature>
+<feature id="org.eclipse.fx.ide.basic.feature" url="features/org.eclipse.fx.ide.basic.feature_1.2.0.201501301049/" version="1.2.0.201501301049">
+</feature>
+<feature id="org.eclipse.fx.ide.mobile.feature" url="features/org.eclipse.fx.ide.mobile.feature_1.2.0.201501301049/" version="1.2.0.201501301049">
 </feature>
 <feature id="org.eclipse.nebula.widgets.nattable.extension.poi.source.feature" url="features/org.eclipse.nebula.widgets.nattable.extension.poi.source.feature_1.5.1.201909181823/" version="1.5.1.201909181823">
 </feature>
@@ -151,7 +177,11 @@
 </feature>
 <feature id="org.eclipse.passage.lic.execute.feature" plugin-identifier="org.eclipse.passage.lic.execute.branding" url="features/org.eclipse.passage.lic.execute.feature_0.9.0.v20200602-1615/" version="0.9.0.v20200602-1615">
 </feature>
+<feature id="org.eclipse.xtext.runtime" url="features/org.eclipse.xtext.runtime_2.22.0.v20200602-1533/" version="2.22.0.v20200602-1533">
+</feature>
 <feature id="org.eclipse.eclemma.feature" plugin-identifier="org.eclipse.eclemma.ui" url="features/org.eclipse.eclemma.feature_3.1.3.202003132300/" version="3.1.3.202003132300">
+</feature>
+<feature id="org.eclipse.fx.ide.rrobot.feature" url="features/org.eclipse.fx.ide.rrobot.feature_1.2.0.201501301049/" version="1.2.0.201501301049">
 </feature>
 <feature id="org.eclipse.epp.package.common.feature" url="features/org.eclipse.epp.package.common.feature_4.16.0.20200615-1200/" version="4.16.0.20200615-1200">
 </feature>
@@ -160,6 +190,8 @@
 <feature id="org.eclipse.wb.core.java.feature" url="features/org.eclipse.wb.core.java.feature_1.9.3.202001230951/" version="1.9.3.202001230951">
 </feature>
 <feature id="org.eclipse.passage.lic.json.feature" plugin-identifier="org.eclipse.passage.lic.json" url="features/org.eclipse.passage.lic.json.feature_0.6.100.v20200128-0518/" version="0.6.100.v20200128-0518">
+</feature>
+<feature id="org.eclipse.fx.ide.pde.feature" url="features/org.eclipse.fx.ide.pde.feature_1.2.0.201501301049/" version="1.2.0.201501301049">
 </feature>
 <feature id="org.eclipse.equinox.server.jetty" url="features/org.eclipse.equinox.server.jetty_1.10.300.v20200528-0603/" version="1.10.300.v20200528-0603">
 </feature>
@@ -171,11 +203,17 @@
 </feature>
 <feature id="org.eclipse.equinox.p2.rcp.feature" url="features/org.eclipse.equinox.p2.rcp.feature_1.4.800.v20200602-1138/" version="1.4.800.v20200602-1138">
 </feature>
+<feature id="org.eclipse.fx.target.rcp4.feature" url="features/org.eclipse.fx.target.rcp4.feature_2.0.0.201506240602/" version="2.0.0.201506240602">
+</feature>
 <feature id="org.eclipse.passage.lic.features.feature" plugin-identifier="org.eclipse.passage.lic.features" url="features/org.eclipse.passage.lic.features.feature_0.6.200.v20200601-1631/" version="0.6.200.v20200601-1631">
+</feature>
+<feature id="org.eclipse.xtext.ui" url="features/org.eclipse.xtext.ui_2.22.0.v20200602-1533/" version="2.22.0.v20200602-1533">
 </feature>
 <feature id="org.eclipse.epp.mpc" plugin-identifier="org.eclipse.epp.mpc.ui" url="features/org.eclipse.epp.mpc_1.8.3.v20200526-1554/" version="1.8.3.v20200526-1554">
 </feature>
 <feature id="org.eclipse.e4.core.tools.feature" url="features/org.eclipse.e4.core.tools.feature_4.16.0.v20200522-1402/" version="4.16.0.v20200522-1402">
+</feature>
+<feature id="org.eclipse.xtext.docs" url="features/org.eclipse.xtext.docs_2.22.0.v20200602-1533/" version="2.22.0.v20200602-1533">
 </feature>
 <feature id="org.eclipse.equinox.p2.rcp.feature.source" url="features/org.eclipse.equinox.p2.rcp.feature.source_1.4.800.v20200602-1138/" version="1.4.800.v20200602-1138">
 </feature>
@@ -185,13 +223,27 @@
 </feature>
 <feature id="org.eclipse.pde" url="features/org.eclipse.pde_3.14.400.v20200604-0540/" version="3.14.400.v20200604-0540">
 </feature>
+<feature id="org.eclipse.xtext.redist" url="features/org.eclipse.xtext.redist_2.22.0.v20200602-1533/" version="2.22.0.v20200602-1533">
+</feature>
+<feature id="org.eclipse.xtext.xtext.ui" url="features/org.eclipse.xtext.xtext.ui_2.22.0.v20200602-1533/" version="2.22.0.v20200602-1533">
+</feature>
 <feature id="org.eclipse.passage.lic.define.feature" plugin-identifier="org.eclipse.passage.lic.define.branding" url="features/org.eclipse.passage.lic.define.feature_0.9.0.v20200602-1615/" version="0.9.0.v20200602-1615">
 </feature>
 <feature id="org.eclipse.passage.lic.oshi.feature" plugin-identifier="org.eclipse.passage.lic.oshi" url="features/org.eclipse.passage.lic.oshi.feature_0.6.300.v20200528-1737/" version="0.6.300.v20200528-1737">
 </feature>
 <feature id="org.eclipse.jgit.ssh.apache" url="features/org.eclipse.jgit.ssh.apache_5.8.0.202006091008-r/" version="5.8.0.202006091008-r">
 </feature>
+<feature id="org.eclipse.fx.ide.fxgraph.feature" url="features/org.eclipse.fx.ide.fxgraph.feature_1.2.0.201501301049/" version="1.2.0.201501301049">
+</feature>
 <feature id="org.eclipse.equinox.server.core" url="features/org.eclipse.equinox.server.core_1.12.200.v20200520-1959/" version="1.12.200.v20200520-1959">
+</feature>
+<feature id="org.eclipse.emf.mwe2.launcher" url="features/org.eclipse.emf.mwe2.launcher_2.11.3.v20200520-0756/" version="2.11.3.v20200520-0756">
+</feature>
+<feature id="org.eclipse.fx.ide.feature" url="features/org.eclipse.fx.ide.feature_1.2.0.201501301049/" version="1.2.0.201501301049">
+</feature>
+<feature id="org.eclipse.emf.mwe2.launcher.source" url="features/org.eclipse.emf.mwe2.launcher.source_2.11.3.v20200520-0756/" version="2.11.3.v20200520-0756">
+</feature>
+<feature id="org.eclipse.xtext.sdk" plugin-identifier="org.eclipse.xtext" url="features/org.eclipse.xtext.sdk_2.22.0.v20200602-1533/" version="2.22.0.v20200602-1533">
 </feature>
 <feature id="org.eclipse.ecf.core.feature.source" url="features/org.eclipse.ecf.core.feature.source_1.5.600.v20200317-1602/" version="1.5.600.v20200317-1602">
 </feature>
@@ -222,6 +274,8 @@
 <feature id="org.eclipse.oomph.setup.core" url="features/org.eclipse.oomph.setup.core_1.17.0.v20200606-0914/" version="1.17.0.v20200606-0914">
 </feature>
 <feature id="org.eclipse.equinox.core.feature" url="features/org.eclipse.equinox.core.feature_1.11.200.v20200525-1407/" version="1.11.200.v20200525-1407">
+</feature>
+<feature id="org.eclipse.fx.ide.converter.feature" url="features/org.eclipse.fx.ide.converter.feature_1.2.0.201501301049/" version="1.2.0.201501301049">
 </feature>
 </site>
 </config>

@@ -1,0 +1,33 @@
+2020-08-11 13:24:46,838 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-08-11 13:28:35,114 [main] WARN  o.u.platform.windows.PerfDataUtil - Failed to add PDH Counter: \System\Context Switches/sec, Error code: 0xC0000BB8
+2020-08-11 13:28:35,116 [main] WARN  o.h.p.w.WindowsCentralProcessor - Unable to enumerate performance counter instances for .
+2020-08-11 13:33:18,994 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-11 13:40:34,972 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @445354ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-08-11 13:40:35,110 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.27.v20200227; built: 2020-03-02T14:40:42.212Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_31-b13
+2020-08-11 13:40:35,134 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2020-08-11 13:40:35,134 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2020-08-11 13:40:35,136 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+2020-08-11 13:40:35,162 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7eb898cb{/help,null,AVAILABLE}
+2020-08-11 13:40:35,178 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1d2e30cf{HTTP/1.1, (http/1.1)}{127.0.0.1:59592}
+2020-08-11 13:40:35,178 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @445561ms
+2020-08-11 13:40:35,178 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2020-08-11 14:10:14,894 [main] WARN  o.u.platform.windows.PerfDataUtil - Failed to add PDH Counter: \System\Context Switches/sec, Error code: 0xC0000BB8
+2020-08-11 14:10:14,895 [main] WARN  o.h.p.w.WindowsCentralProcessor - Unable to enumerate performance counter instances for .
+2020-08-11 14:10:14,944 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@1d2e30cf{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2020-08-11 14:10:14,944 [Stop Help Server] INFO  org.eclipse.jetty.server.session - node0 Stopped scavenging
+2020-08-11 14:10:14,953 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7eb898cb{/help,null,UNAVAILABLE}
+2020-08-11 14:13:45,039 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-11 14:15:16,470 [main] WARN  o.u.platform.windows.PerfDataUtil - Failed to add PDH Counter: \System\Context Switches/sec, Error code: 0xC0000BB8
+2020-08-11 14:15:16,474 [main] WARN  o.h.p.w.WindowsCentralProcessor - Unable to enumerate performance counter instances for .
+2020-08-11 14:17:23,969 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-11 14:22:12,474 [main] WARN  o.u.platform.windows.PerfDataUtil - Failed to add PDH Counter: \System\Context Switches/sec, Error code: 0xC0000BB8
+2020-08-11 14:22:12,477 [main] WARN  o.h.p.w.WindowsCentralProcessor - Unable to enumerate performance counter instances for .
+2020-08-11 15:08:43,782 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-11 15:10:09,763 [main] WARN  o.u.platform.windows.PerfDataUtil - Failed to add PDH Counter: \System\Context Switches/sec, Error code: 0xC0000BB8
+2020-08-11 15:10:09,766 [main] WARN  o.h.p.w.WindowsCentralProcessor - Unable to enumerate performance counter instances for .
+2020-08-11 15:11:04,093 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-11 15:14:09,063 [main] WARN  o.u.platform.windows.PerfDataUtil - Failed to add PDH Counter: \System\Context Switches/sec, Error code: 0xC0000BB8
+2020-08-11 15:14:09,066 [main] WARN  o.h.p.w.WindowsCentralProcessor - Unable to enumerate performance counter instances for .
+2020-08-11 16:31:28,959 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-11 16:45:14,115 [main] WARN  o.u.platform.windows.PerfDataUtil - Failed to add PDH Counter: \System\Context Switches/sec, Error code: 0xC0000BB8
+2020-08-11 16:45:14,117 [main] WARN  o.h.p.w.WindowsCentralProcessor - Unable to enumerate performance counter instances for .

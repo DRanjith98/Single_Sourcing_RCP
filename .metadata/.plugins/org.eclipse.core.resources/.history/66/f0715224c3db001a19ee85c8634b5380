@@ -1,0 +1,30 @@
+package com.ltts.example.views;
+
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.swt.widgets.Label;
+import org.eclipse.ui.part.ViewPart;
+
+
+
+public class View_1 extends ViewPart {
+	
+//	OpenModel OpenModel;
+	
+	
+	@Override
+	public void createPartControl(Composite parent) {
+		  new OpenModel();
+		  Label userNameLabel = new Label(parent, SWT.NONE);
+			userNameLabel.setText("Username");
+			GridData gridDataUserNameLabel = new GridData(GridData.HORIZONTAL_ALIGN_END);
+			gridDataUserNameLabel.widthHint = 65;
+			userNameLabel.setLayoutData(gridDataUserNameLabel);
+	}
+
+	@Override
+	public void setFocus() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
