@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="D:\RAP_Workspace_SingleSourcing\.git">
+			<item value="false"/>
+			<item value="40006037 &lt;40006037@MYTSP01982.lnties.com&gt;"/>
+			<item value="seconf commit"/>
+			<item value="40006037 &lt;40006037@MYTSP01982.lnties.com&gt;"/>
+			<item value="484691bdcbfe88362eb158881ee0f1793c47d1f6"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+	</section>
+</section>

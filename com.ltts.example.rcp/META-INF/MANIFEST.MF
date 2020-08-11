@@ -1,8 +1,10 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Rcp
-Bundle-SymbolicName: com.ltts.example.rcp
+Bundle-SymbolicName: com.ltts.example.rcp;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: LTTS
 Automatic-Module-Name: com.ltts.example.rcp
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime;bundle-version="3.17.100"

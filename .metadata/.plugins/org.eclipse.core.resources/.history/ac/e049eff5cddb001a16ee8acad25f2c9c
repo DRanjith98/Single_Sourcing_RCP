@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="com.ltts.example.rcp.View_4"
+            id="com.ltts.example.rcp.view_4"
+            name="View_4"
+            restorable="true">
+      </view>
+   </extension>
+
+</plugin>

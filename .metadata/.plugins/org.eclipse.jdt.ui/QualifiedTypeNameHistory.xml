@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Label"/>
+<fullyQualifiedTypeName name="javafx.scene.chart.Chart"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.layout.GridLayout"/>
 <fullyQualifiedTypeName name="org.eclipse.swt.layout.GridData"/>
 <fullyQualifiedTypeName name="org.eclipse.swt.SWT"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Button"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Group"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Label"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Text"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.layout.RowLayout"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Combo"/>
 </qualifiedTypeNameHistroy>

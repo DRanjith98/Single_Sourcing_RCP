@@ -1,0 +1,118 @@
+package com.ltts.example.views;
+
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.layout.GridData;
+import org.eclipse.swt.layout.GridLayout;
+import org.eclipse.swt.layout.RowLayout;
+import org.eclipse.swt.widgets.Button;
+import org.eclipse.swt.widgets.Combo;
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.swt.widgets.Group;
+import org.eclipse.swt.widgets.Label;
+import org.eclipse.swt.widgets.Text;
+import org.eclipse.ui.part.ViewPart;
+
+public class View_3 extends ViewPart {
+
+	String[] fieldsData = { "Salala", "Ghawar" };
+	
+	@Override
+	public void createPartControl(Composite parent) {
+		Composite addWellPageContainer = new Composite(parent, SWT.BORDER);
+		GridLayout layout = new GridLayout(1, false);
+		layout.verticalSpacing = 15;
+		layout.marginTop = 10;
+		addWellPageContainer.setLayout(layout);
+		addWellPageContainer.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true));
+
+		// check box - to be enabled to add new well details.
+		Button  checkBoxButton = new Button(addWellPageContainer, SWT.CHECK);
+		checkBoxButton.setText("Click to add new well details.");
+
+		Group addwellGroup = new Group(addWellPageContainer, SWT.NONE);
+		GridLayout groupLayout = new GridLayout(2, true);
+		addwellGroup.setLayout(groupLayout);
+		GridData gridDataAddWellGroup = new GridData(SWT.FILL, SWT.FILL, true, false);
+		addwellGroup.setLayoutData(gridDataAddWellGroup);
+		addwellGroup.setText("Enter well details");
+
+		// Well Name
+		Label wellNameLabel = new Label(addwellGroup, SWT.NONE);
+		wellNameLabel.setText("Well Name");
+		wellNameLabel.setLayoutData(getLabelGridData());
+
+		Text wellNameText = new Text(addwellGroup, SWT.BORDER);
+		wellNameText.setLayoutData(getGridData());
+
+		// Easting
+		Label eastingLabel = new Label(addwellGroup, SWT.NONE);
+		eastingLabel.setText("Easting");
+		eastingLabel.setLayoutData(getLabelGridData());
+
+		Text eastingText = new Text(addwellGroup, SWT.BORDER);
+		eastingText.setLayoutData(getGridData());
+		eastingText.setToolTipText("The entered value should be decimal and should have only one digit after decimal.");
+
+		// Northing
+		Label northingLabel = new Label(addwellGroup, SWT.NONE);
+		northingLabel.setText("Northing");
+		northingLabel.setLayoutData(getLabelGridData());
+
+		Text northingText = new Text(addwellGroup, SWT.BORDER);
+		northingText.setLayoutData(getGridData());
+		northingText
+				.setToolTipText("The entered value should be decimal and should have only one digit after decimal.");
+
+		// Azimuth
+		Label azimuthLabel = new Label(addwellGroup, SWT.NONE);
+		azimuthLabel.setText("Azimuth");
+		azimuthLabel.setLayoutData(getLabelGridData());
+
+		Text azimuthText = new Text(addwellGroup, SWT.BORDER);
+		azimuthText.setLayoutData(getGridData());
+		azimuthText.setToolTipText(
+				"The entered double value should be in between 1 and 360 and should have only one digit after decimal.");
+
+		// Field
+		Label fieldLabel = new Label(addwellGroup, SWT.NONE);
+		fieldLabel.setText("Field");
+		fieldLabel.setLayoutData(getLabelGridData());
+
+		Combo fieldCombo = new Combo(addwellGroup, SWT.DROP_DOWN | SWT.READ_ONLY);
+		fieldCombo.setItems(fieldsData);
+		fieldCombo.setLayoutData(getGridData());
+
+		
+		// Well Type
+		Label wellTypelabel = new Label(addwellGroup, SWT.NONE);
+		wellTypelabel.setText("Well Type ");
+		wellTypelabel.setLayoutData(getLabelGridData());
+
+		Composite radioComposite = new Composite(addwellGroup, SWT.NONE);
+		radioComposite.setLayout(new RowLayout());
+
+		Button wellTypeHorizontalRadio = new Button(radioComposite, SWT.RADIO);
+		wellTypeHorizontalRadio.setText("Horizontal");
+		wellTypeHorizontalRadio.setSelection(true);
+
+		Button wellTypeVerticalRadio = new Button(radioComposite, SWT.RADIO);
+		wellTypeVerticalRadio.setText("Vertical");
+
+		Button wellTypeDeviatedRadio = new Button(radioComposite, SWT.RADIO);
+		wellTypeDeviatedRadio.setText("Deviated");
+
+		Button wellTypeSWellRadio = new Button(radioComposite, SWT.RADIO);
+		wellTypeSWellRadio.setText("S-Well");
+
+		
+
+
+	}
+
+	@Override
+	public void setFocus() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -31,3 +31,9 @@
 2020-08-11 16:31:28,959 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2020-08-11 16:45:14,115 [main] WARN  o.u.platform.windows.PerfDataUtil - Failed to add PDH Counter: \System\Context Switches/sec, Error code: 0xC0000BB8
 2020-08-11 16:45:14,117 [main] WARN  o.h.p.w.WindowsCentralProcessor - Unable to enumerate performance counter instances for .
+2020-08-11 17:29:22,137 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-11 18:08:42,356 [main] WARN  o.u.platform.windows.PerfDataUtil - Failed to add PDH Counter: \System\Context Switches/sec, Error code: 0xC0000BB8
+2020-08-11 18:08:42,359 [main] WARN  o.h.p.w.WindowsCentralProcessor - Unable to enumerate performance counter instances for .
+2020-08-11 18:27:57,914 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-11 18:41:30,431 [main] WARN  o.u.platform.windows.PerfDataUtil - Failed to add PDH Counter: \System\Context Switches/sec, Error code: 0xC0000BB8
+2020-08-11 18:41:30,434 [main] WARN  o.h.p.w.WindowsCentralProcessor - Unable to enumerate performance counter instances for .

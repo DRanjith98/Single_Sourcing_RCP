@@ -5,105 +5,120 @@
 <booleanAttribute key="askclear" value="true"/>
 <booleanAttribute key="automaticAdd" value="true"/>
 <booleanAttribute key="automaticValidate" value="true"/>
+<stringAttribute key="bootstrap" value=""/>
 <stringAttribute key="checked" value="[NONE]"/>
-<booleanAttribute key="clearws" value="false"/>
+<booleanAttribute key="clearConfig" value="true"/>
+<booleanAttribute key="clearws" value="true"/>
+<booleanAttribute key="clearwslog" value="true"/>
+<stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/com.ltts.example.id"/>
 <booleanAttribute key="default" value="false"/>
+<setAttribute key="deselected_workspace_bundles"/>
+<booleanAttribute key="includeOptional" value="true"/>
 <stringAttribute key="location" value="${workspace_loc}/../runtime-com.ltts.example.id"/>
+<stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -consoleLog"/>
 <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
-<booleanAttribute key="pde.generated.config" value="true"/>
+<booleanAttribute key="pde.generated.config" value="false"/>
 <stringAttribute key="pde.version" value="3.3"/>
+<stringAttribute key="product" value="org.eclipse.epp.package.rcp.product"/>
 <setAttribute key="selected_target_bundles">
-<setEntry value="com.ibm.icu*64.2.0.v20190507-1337"/>
-<setEntry value="javax.annotation*1.2.0.v201602091430"/>
-<setEntry value="javax.inject*1.0.0.v20091030"/>
-<setEntry value="javax.servlet*3.1.0.v201410161800"/>
-<setEntry value="javax.xml*1.3.4.v201005080400"/>
-<setEntry value="org.apache.batik.constants*1.11.0.v20190515-0436"/>
-<setEntry value="org.apache.batik.css*1.11.0.v20190515-0436"/>
-<setEntry value="org.apache.batik.i18n*1.11.0.v20190515-0436"/>
-<setEntry value="org.apache.batik.util*1.11.0.v20190515-0436"/>
-<setEntry value="org.apache.commons.io*2.6.0.v20190123-2029"/>
-<setEntry value="org.apache.commons.jxpath*1.3.0.v200911051830"/>
-<setEntry value="org.apache.commons.logging*1.2.0.v20180409-1502"/>
-<setEntry value="org.apache.felix.gogo.runtime*1.1.0.v20180713-1646"/>
-<setEntry value="org.apache.felix.scr*2.1.16.v20200110-1820"/>
-<setEntry value="org.apache.log4j*1.2.15.v201012070815"/>
-<setEntry value="org.apache.xmlgraphics*2.3.0.v20190515-0436"/>
-<setEntry value="org.eclipse.ant.core*3.5.700.v20191221-1203"/>
-<setEntry value="org.eclipse.compare.core*3.6.800.v20191213-2246"/>
-<setEntry value="org.eclipse.core.commands*3.9.700.v20191217-1850"/>
-<setEntry value="org.eclipse.core.contenttype*3.7.600.v20200124-1609"/>
-<setEntry value="org.eclipse.core.databinding*1.8.0.v20200205-2008"/>
-<setEntry value="org.eclipse.core.databinding.observable*1.9.0.v20200205-2119"/>
-<setEntry value="org.eclipse.core.databinding.property*1.8.0.v20200124-0715"/>
-<setEntry value="org.eclipse.core.expressions*3.6.700.v20200212-1751"/>
-<setEntry value="org.eclipse.core.filesystem*1.7.700.v20200110-1734"/>
-<setEntry value="org.eclipse.core.filesystem.win32.x86_64*1.4.200.v20190812-0909"/>
-<setEntry value="org.eclipse.core.jobs*3.10.700.v20200106-1020"/>
-<setEntry value="org.eclipse.core.resources*3.13.700.v20200209-1624"/>
-<setEntry value="org.eclipse.core.resources.win32.x86_64*3.5.400.v20190812-0909"/>
-<setEntry value="org.eclipse.core.runtime*3.17.100.v20200203-0917"/>
-<setEntry value="org.eclipse.core.variables*3.4.800.v20200120-1101"/>
-<setEntry value="org.eclipse.e4.core.commands*0.12.900.v20200110-1732"/>
-<setEntry value="org.eclipse.e4.core.contexts*1.8.400.v20191217-1710"/>
-<setEntry value="org.eclipse.e4.core.di*1.7.500.v20190916-2125"/>
-<setEntry value="org.eclipse.e4.core.di.annotations*1.6.600.v20191216-2352"/>
-<setEntry value="org.eclipse.e4.core.di.extensions*0.15.500.v20200106-1259"/>
-<setEntry value="org.eclipse.e4.core.di.extensions.supplier*0.15.500.v20200106-1259"/>
-<setEntry value="org.eclipse.e4.core.services*2.2.200.v20200127-0814"/>
-<setEntry value="org.eclipse.e4.emf.xpath*0.2.600.v20191216-0805"/>
-<setEntry value="org.eclipse.e4.ui.bindings*0.12.800.v20191216-0805"/>
-<setEntry value="org.eclipse.e4.ui.css.core*0.12.1000.v20200129-0903"/>
-<setEntry value="org.eclipse.e4.ui.css.swt*0.13.900.v20200203-0840"/>
-<setEntry value="org.eclipse.e4.ui.css.swt.theme*0.12.600.v20200124-0005"/>
-<setEntry value="org.eclipse.e4.ui.di*1.2.800.v20200128-0855"/>
-<setEntry value="org.eclipse.e4.ui.dialogs*1.1.700.v20200201-1719"/>
-<setEntry value="org.eclipse.e4.ui.model.workbench*2.1.700.v20200113-1422"/>
-<setEntry value="org.eclipse.e4.ui.services*1.3.700.v20190930-1643"/>
-<setEntry value="org.eclipse.e4.ui.widgets*1.2.700.v20191222-1048"/>
-<setEntry value="org.eclipse.e4.ui.workbench*1.11.200.v20200205-1503"/>
-<setEntry value="org.eclipse.e4.ui.workbench.addons.swt*1.3.800.v20191212-1231"/>
-<setEntry value="org.eclipse.e4.ui.workbench.renderers.swt*0.14.1100.v20200217-1217"/>
-<setEntry value="org.eclipse.e4.ui.workbench.swt*0.14.900.v20200213-1442"/>
-<setEntry value="org.eclipse.e4.ui.workbench3*0.15.400.v20191216-0805"/>
-<setEntry value="org.eclipse.emf.common*2.19.0.v20200324-0932"/>
-<setEntry value="org.eclipse.emf.ecore*2.22.0.v20200519-1135"/>
-<setEntry value="org.eclipse.emf.ecore.change*2.14.0.v20190528-0725"/>
-<setEntry value="org.eclipse.emf.ecore.xmi*2.16.0.v20190528-0725"/>
-<setEntry value="org.eclipse.equinox.app*1.4.400.v20191212-0743"/>
-<setEntry value="org.eclipse.equinox.bidi*1.2.300.v20191213-1901"/>
-<setEntry value="org.eclipse.equinox.common*3.11.0.v20200206-0817"/>
-<setEntry value="org.eclipse.equinox.event*1.5.300.v20191001-1333"/>
-<setEntry value="org.eclipse.equinox.preferences*3.7.700.v20191213-1901"/>
-<setEntry value="org.eclipse.equinox.region*1.4.600.v20191002-1632"/>
-<setEntry value="org.eclipse.equinox.registry*3.8.700.v20200121-1457"/>
-<setEntry value="org.eclipse.equinox.supplement*1.9.200.v20200207-2156"/>
-<setEntry value="org.eclipse.equinox.transforms.hook*1.2.500.v20190714-1852"/>
-<setEntry value="org.eclipse.equinox.weaving.hook*1.2.600.v20191213-1901"/>
-<setEntry value="org.eclipse.fx.osgi*2.0.0.201506111452"/>
-<setEntry value="org.eclipse.help*3.8.700.v20191212-1123"/>
-<setEntry value="org.eclipse.jdt.annotation*2.2.400.v20191120-1313"/>
-<setEntry value="org.eclipse.jface*3.19.0.v20200218-1607"/>
-<setEntry value="org.eclipse.jface.databinding*1.11.0.v20200205-2119"/>
-<setEntry value="org.eclipse.osgi*3.15.200.v20200214-1600"/>
-<setEntry value="org.eclipse.osgi.compatibility.state*1.1.700.v20200207-2156"/>
-<setEntry value="org.eclipse.osgi.services*3.8.0.v20190206-2147"/>
-<setEntry value="org.eclipse.osgi.util*3.5.300.v20190708-1141"/>
-<setEntry value="org.eclipse.swt*3.114.0.v20200304-0601"/>
-<setEntry value="org.eclipse.swt.win32.win32.x86_64*3.114.0.v20200304-0601"/>
-<setEntry value="org.eclipse.team.core*3.8.900.v20200211-0946"/>
-<setEntry value="org.eclipse.ui*3.116.0.v20200203-1308"/>
-<setEntry value="org.eclipse.ui.trace*1.1.800.v20200106-1301"/>
-<setEntry value="org.eclipse.ui.workbench*3.118.0.v20200222-0719"/>
-<setEntry value="org.eclipse.xtext.logging*1.2.15.v20200602-1242"/>
-<setEntry value="org.w3c.css.sac*1.3.1.v200903091627"/>
-<setEntry value="org.w3c.dom.events*3.0.0.draft20060413_v201105210656"/>
-<setEntry value="org.w3c.dom.smil*1.0.1.v200903091627"/>
-<setEntry value="org.w3c.dom.svg*1.1.0.v201011041433"/>
+<setEntry value="com.ibm.icu@default:default"/>
+<setEntry value="javax.annotation@default:default"/>
+<setEntry value="javax.inject@default:default"/>
+<setEntry value="javax.servlet@default:default"/>
+<setEntry value="javax.xml@default:default"/>
+<setEntry value="org.apache.batik.constants@default:default"/>
+<setEntry value="org.apache.batik.css@default:default"/>
+<setEntry value="org.apache.batik.i18n@default:default"/>
+<setEntry value="org.apache.batik.util@default:default"/>
+<setEntry value="org.apache.commons.io@default:default"/>
+<setEntry value="org.apache.commons.jxpath@default:default"/>
+<setEntry value="org.apache.commons.logging*1.2.0.v20180409-1502@default:default"/>
+<setEntry value="org.apache.felix.gogo.runtime@default:default"/>
+<setEntry value="org.apache.felix.scr@1:true"/>
+<setEntry value="org.apache.log4j@default:default"/>
+<setEntry value="org.apache.xmlgraphics@default:default"/>
+<setEntry value="org.eclipse.ant.core@default:default"/>
+<setEntry value="org.eclipse.compare.core@default:default"/>
+<setEntry value="org.eclipse.core.commands@default:default"/>
+<setEntry value="org.eclipse.core.contenttype@default:default"/>
+<setEntry value="org.eclipse.core.databinding.observable@default:default"/>
+<setEntry value="org.eclipse.core.databinding.property@default:default"/>
+<setEntry value="org.eclipse.core.databinding@default:default"/>
+<setEntry value="org.eclipse.core.expressions@default:default"/>
+<setEntry value="org.eclipse.core.filesystem.win32.x86_64@default:false"/>
+<setEntry value="org.eclipse.core.filesystem@default:default"/>
+<setEntry value="org.eclipse.core.jobs@default:default"/>
+<setEntry value="org.eclipse.core.resources.win32.x86_64@default:false"/>
+<setEntry value="org.eclipse.core.resources@default:default"/>
+<setEntry value="org.eclipse.core.runtime@default:true"/>
+<setEntry value="org.eclipse.core.variables@default:default"/>
+<setEntry value="org.eclipse.e4.core.commands@default:default"/>
+<setEntry value="org.eclipse.e4.core.contexts@default:default"/>
+<setEntry value="org.eclipse.e4.core.di.annotations@default:default"/>
+<setEntry value="org.eclipse.e4.core.di.extensions.supplier@default:default"/>
+<setEntry value="org.eclipse.e4.core.di.extensions@default:default"/>
+<setEntry value="org.eclipse.e4.core.di@default:default"/>
+<setEntry value="org.eclipse.e4.core.services@default:default"/>
+<setEntry value="org.eclipse.e4.emf.xpath@default:default"/>
+<setEntry value="org.eclipse.e4.ui.bindings@default:default"/>
+<setEntry value="org.eclipse.e4.ui.css.core@default:default"/>
+<setEntry value="org.eclipse.e4.ui.css.swt.theme@default:default"/>
+<setEntry value="org.eclipse.e4.ui.css.swt@default:default"/>
+<setEntry value="org.eclipse.e4.ui.di@default:default"/>
+<setEntry value="org.eclipse.e4.ui.dialogs@default:default"/>
+<setEntry value="org.eclipse.e4.ui.model.workbench@default:default"/>
+<setEntry value="org.eclipse.e4.ui.services@default:default"/>
+<setEntry value="org.eclipse.e4.ui.widgets@default:default"/>
+<setEntry value="org.eclipse.e4.ui.workbench.addons.swt@default:default"/>
+<setEntry value="org.eclipse.e4.ui.workbench.renderers.swt@default:default"/>
+<setEntry value="org.eclipse.e4.ui.workbench.swt@default:default"/>
+<setEntry value="org.eclipse.e4.ui.workbench3@default:default"/>
+<setEntry value="org.eclipse.e4.ui.workbench@default:default"/>
+<setEntry value="org.eclipse.emf.common@default:default"/>
+<setEntry value="org.eclipse.emf.ecore.change@default:default"/>
+<setEntry value="org.eclipse.emf.ecore.xmi@default:default"/>
+<setEntry value="org.eclipse.emf.ecore@default:default"/>
+<setEntry value="org.eclipse.equinox.app@default:default"/>
+<setEntry value="org.eclipse.equinox.bidi@default:default"/>
+<setEntry value="org.eclipse.equinox.common@2:true"/>
+<setEntry value="org.eclipse.equinox.event@default:default"/>
+<setEntry value="org.eclipse.equinox.preferences@default:default"/>
+<setEntry value="org.eclipse.equinox.region@default:false"/>
+<setEntry value="org.eclipse.equinox.registry@default:default"/>
+<setEntry value="org.eclipse.equinox.supplement@default:default"/>
+<setEntry value="org.eclipse.equinox.transforms.hook@default:false"/>
+<setEntry value="org.eclipse.equinox.weaving.hook@default:false"/>
+<setEntry value="org.eclipse.fx.osgi*2.0.0.201506111452@default:false"/>
+<setEntry value="org.eclipse.help@default:default"/>
+<setEntry value="org.eclipse.jdt.annotation*2.2.400.v20191120-1313@default:default"/>
+<setEntry value="org.eclipse.jface.databinding@default:default"/>
+<setEntry value="org.eclipse.jface@default:default"/>
+<setEntry value="org.eclipse.osgi.compatibility.state@default:false"/>
+<setEntry value="org.eclipse.osgi.services@default:default"/>
+<setEntry value="org.eclipse.osgi.util@default:default"/>
+<setEntry value="org.eclipse.osgi@-1:true"/>
+<setEntry value="org.eclipse.swt.win32.win32.x86_64@default:false"/>
+<setEntry value="org.eclipse.swt@default:default"/>
+<setEntry value="org.eclipse.team.core@default:default"/>
+<setEntry value="org.eclipse.ui.trace@default:default"/>
+<setEntry value="org.eclipse.ui.workbench@default:default"/>
+<setEntry value="org.eclipse.ui@default:default"/>
+<setEntry value="org.eclipse.xtext.logging@default:false"/>
+<setEntry value="org.w3c.css.sac@default:default"/>
+<setEntry value="org.w3c.dom.events@default:default"/>
+<setEntry value="org.w3c.dom.smil@default:default"/>
+<setEntry value="org.w3c.dom.svg@default:default"/>
 </setAttribute>
 <setAttribute key="selected_workspace_bundles">
-<setEntry value="com.ltts.example*1.0.0.qualifier"/>
+<setEntry value="com.ltts.example.rcp@default:default"/>
+<setEntry value="com.ltts.example@default:default"/>
 </setAttribute>
+<booleanAttribute key="show_selected_only" value="false"/>
+<booleanAttribute key="tracing" value="false"/>
+<booleanAttribute key="useCustomFeatures" value="false"/>
+<booleanAttribute key="useDefaultConfig" value="true"/>
+<booleanAttribute key="useDefaultConfigArea" value="true"/>
+<booleanAttribute key="useProduct" value="false"/>
 <booleanAttribute key="usefeatures" value="false"/>
 </launchConfiguration>

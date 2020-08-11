@@ -1,0 +1,40 @@
+package com.ltts.example.views;
+
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.ui.part.ViewPart;
+import org.swtchart.IAxis;
+import org.swtchart.IAxisSet;
+import org.swtchart.IBarSeries;
+import org.swtchart.ISeries.SeriesType;
+
+import javafx.scene.chart.Chart;
+
+public class View_1 extends ViewPart {
+
+	@Override
+	public void createPartControl(Composite parent) {
+		Chart chart = new Chart(parent, SWT.NONE);
+		chart.getTitle().setText("SWT Chart");
+		chart.getAxisSet().getXAxis(0).getTitle().setText("Operating Systems");
+		chart.getAxisSet().getYAxis(0).getTitle().setText("Love");
+		IAxisSet axisSet = chart.getAxisSet();
+		IAxis xAxis = axisSet.getXAxis(0);
+		xAxis.setCategorySeries(new String[] { "Linux", "Windows" });
+		xAxis.enableCategory(true);
+
+		IBarSeries series = (IBarSeries) chart.getSeriesSet().createSeries(
+		SeriesType.BAR, "line series");
+		series.setBarColor(parent.getDisplay().getSystemColor(SWT.COLOR_RED));
+		double[] values = { 0.7, 0.2 };
+		series.setYSeries(values);
+
+	}
+
+	@Override
+	public void setFocus() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
