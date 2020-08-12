@@ -10,4 +10,19 @@
 <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Text"/>
 <fullyQualifiedTypeName name="org.eclipse.swt.layout.RowLayout"/>
 <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Combo"/>
+<fullyQualifiedTypeName name="javafx.collections.ObservableList"/>
+<fullyQualifiedTypeName name="javafx.scene.chart.PieChart"/>
+<fullyQualifiedTypeName name="javafx.collections.FXCollections"/>
+<fullyQualifiedTypeName name="javafx.scene.Group"/>
+<fullyQualifiedTypeName name="com.ltts.example.ui.wellsselection.WellSelectionModelMgr"/>
+<fullyQualifiedTypeName name="com.ltts.example.ui.wellsselection.WellSelectionViewMgr"/>
+<fullyQualifiedTypeName name="com.ltts.example.ui.login.LoginModelMgr"/>
+<fullyQualifiedTypeName name="com.ltts.example.ui.login.LoginViewMgr"/>
+<fullyQualifiedTypeName name="com.ltts.example.ui.addnewwell.AddNewWellViewMgr"/>
+<fullyQualifiedTypeName name="com.ltts.example.ui.addnewwell.AddNewWellModelMgr"/>
+<fullyQualifiedTypeName name="com.ltts.example.models.UserModel"/>
+<fullyQualifiedTypeName name="com.ltts.example.ui.util.PropertiesCache"/>
+<fullyQualifiedTypeName name="com.ltts.example.models.Well"/>
+<fullyQualifiedTypeName name="com.ltts.example.models.WellDataProvider"/>
+<fullyQualifiedTypeName name="com.ltts.example.ui.util.MessagesUtil"/>
 </qualifiedTypeNameHistroy>

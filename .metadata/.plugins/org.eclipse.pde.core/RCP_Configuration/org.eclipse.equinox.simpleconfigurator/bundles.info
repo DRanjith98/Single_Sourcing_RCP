@@ -31,9 +31,13 @@ net.i2p.crypto.eddsa,0.3.0.v20181102-1323,file:/C:/Users/40006037/Desktop/eclips
 org.antlr.runtime,3.2.0.v201101311130,file:/C:/Users/40006037/Desktop/eclipse-rcp-2020-03-R-win32-x86_64/eclipse/plugins/org.antlr.runtime_3.2.0.v201101311130.jar,4,false
 org.apache.ant,1.10.7.v20190926-0324,file:/C:/Users/40006037/Desktop/eclipse-rcp-2020-03-R-win32-x86_64/eclipse/plugins/org.apache.ant_1.10.7.v20190926-0324/,4,false
 org.apache.batik.constants,1.11.0.v20190515-0436,file:/C:/Users/40006037/Desktop/eclipse-rcp-2020-03-R-win32-x86_64/eclipse/plugins/org.apache.batik.constants_1.11.0.v20190515-0436.jar,4,false
+org.apache.batik.constants,1.9.1.v20180227-1645,file:/C:/Users/40006037/Desktop/eclipse-rcp-2020-03-R-win32-x86_64/eclipse/plugins/org.apache.batik.constants_1.9.1.v20180227-1645.jar,4,false
 org.apache.batik.css,1.11.0.v20190515-0436,file:/C:/Users/40006037/Desktop/eclipse-rcp-2020-03-R-win32-x86_64/eclipse/plugins/org.apache.batik.css_1.11.0.v20190515-0436.jar,4,false
+org.apache.batik.css,1.9.1.v20181015-1528,file:/C:/Users/40006037/Desktop/eclipse-rcp-2020-03-R-win32-x86_64/eclipse/plugins/org.apache.batik.css_1.9.1.v20181015-1528.jar,4,false
 org.apache.batik.i18n,1.11.0.v20190515-0436,file:/C:/Users/40006037/Desktop/eclipse-rcp-2020-03-R-win32-x86_64/eclipse/plugins/org.apache.batik.i18n_1.11.0.v20190515-0436.jar,4,false
+org.apache.batik.i18n,1.9.1.v20180227-1645,file:/C:/Users/40006037/Desktop/eclipse-rcp-2020-03-R-win32-x86_64/eclipse/plugins/org.apache.batik.i18n_1.9.1.v20180227-1645.jar,4,false
 org.apache.batik.util,1.11.0.v20190515-0436,file:/C:/Users/40006037/Desktop/eclipse-rcp-2020-03-R-win32-x86_64/eclipse/plugins/org.apache.batik.util_1.11.0.v20190515-0436.jar,4,false
+org.apache.batik.util,1.9.1.v20180703-1553,file:/C:/Users/40006037/Desktop/eclipse-rcp-2020-03-R-win32-x86_64/eclipse/plugins/org.apache.batik.util_1.9.1.v20180703-1553.jar,4,false
 org.apache.commons.cli,1.4.0.v20200417-1444,file:/C:/Users/40006037/Desktop/eclipse-rcp-2020-03-R-win32-x86_64/eclipse/plugins/org.apache.commons.cli_1.4.0.v20200417-1444.jar,4,false
 org.apache.commons.codec,1.13.0.v20200108-0001,file:/C:/Users/40006037/Desktop/eclipse-rcp-2020-03-R-win32-x86_64/eclipse/plugins/org.apache.commons.codec_1.13.0.v20200108-0001.jar,4,false
 org.apache.commons.codec,1.6.0.v201305230611,file:/C:/Users/40006037/Desktop/eclipse-rcp-2020-03-R-win32-x86_64/eclipse/plugins/org.apache.commons.codec_1.6.0.v201305230611.jar,4,false

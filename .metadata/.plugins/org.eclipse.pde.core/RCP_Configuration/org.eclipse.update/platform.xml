@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config date="1597147301383" transient="false" version="3.0">
+<config date="1597247123286" transient="false" version="3.0">
 <site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
 <feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_2.3.200.v20200604-0540/" version="2.3.200.v20200604-0540">
 </feature>
@@ -118,6 +118,8 @@
 <feature id="org.eclipse.fx.runtime.min.feature" url="features/org.eclipse.fx.runtime.min.feature_1.2.0.201501301028/" version="1.2.0.201501301028">
 </feature>
 <feature id="org.eclipse.jgit" url="features/org.eclipse.jgit_5.8.0.202006091008-r/" version="5.8.0.202006091008-r">
+</feature>
+<feature id="org.eclipse.swtchart.feature" url="features/org.eclipse.swtchart.feature_0.12.0.202003130409/" version="0.12.0.202003130409">
 </feature>
 <feature id="org.eclipse.equinox.sdk" url="features/org.eclipse.equinox.sdk_3.20.200.v20200528-0603/" version="3.20.200.v20200528-0603">
 </feature>
@@ -258,6 +260,8 @@
 <feature id="org.eclipse.equinox.p2.extras.feature" url="features/org.eclipse.equinox.p2.extras.feature_1.4.800.v20200511-1530/" version="1.4.800.v20200511-1530">
 </feature>
 <feature id="org.eclipse.equinox.p2.extras.feature.source" url="features/org.eclipse.equinox.p2.extras.feature.source_1.4.800.v20200511-1530/" version="1.4.800.v20200511-1530">
+</feature>
+<feature id="org.eclipse.swtchart.feature.source" url="features/org.eclipse.swtchart.feature.source_0.12.0.202003130409/" version="0.12.0.202003130409">
 </feature>
 <feature id="org.eclipse.ecf.core.feature" url="features/org.eclipse.ecf.core.feature_1.5.600.v20200317-1602/" version="1.5.600.v20200317-1602">
 </feature>
